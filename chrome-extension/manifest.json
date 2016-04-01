@@ -1,14 +1,14 @@
 {
-  "name": "Tab Inspector",
-  "description": "Utility for working with the extension tabs api",
-  "version": "0.3",
+  "name": "Crabhack Helper",
+  "description": "Triggers photo taking with data",
+  "version": "0.1",
   "permissions": ["tabs"],
   "background": {
     "persistent": false,
-    "scripts": ["background.js"]
+    "scripts": ["tabs.js"]
   },
   "browser_action": {
-    "default_title": "show tab inspector"
+    "default_title": "im always watching"
   },
   "manifest_version": 2
 }
